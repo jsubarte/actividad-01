@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cowsay con Express 4.17.1</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="col-12">Configurar cowsay</h1>
+            <div class="row">
+                <div class="col-6">
+                    <form method="POST" id="Config-Cow" action="jsubarte">
+                        <div class="form-group">
+                            <label for="figura">Figura</label>
+                            <select class="form-select" name="figura" id="Figura" data-placeholder="- Seleccione figura -"></select>
+                        </div>
+                        <div class="form-group">
+                            <label for="Mensaje">Mensaje</label>
+                            <input class="form-control" type="text" name="mensaje" id="Mensaje" placeholder="Hola Mundo">
+                        </div>
+                        <button type="submit" id="btnEnviar" class="btn btn-primary mt-2">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="undefined" crossorigin="anonymous"></script>
+        <script src="js/controlador.js"></script>
+    </body>
+</html>
