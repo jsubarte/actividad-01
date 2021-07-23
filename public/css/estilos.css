@@ -1,5 +1,10 @@
 body{
-    background-color: #E3E4E5;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+pre{
+    color: #7FFF00;
 }
 
 .caja {
